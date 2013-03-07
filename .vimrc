@@ -39,6 +39,7 @@ cnoremap %% <C-R>=expand('%:h').'/'<cr>
 " map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
 " map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 map <leader>t :CtrlP<cr>
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files']
 
 "" --------------------- LaTeX configuration
 " IMPORTANT: grep will sometimes skip displaying the file name if you
