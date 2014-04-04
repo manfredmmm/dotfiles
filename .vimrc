@@ -26,6 +26,8 @@ set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
+set maxmempattern=2000
+
 " use comma as <Leader> key instead of backslash
 let mapleader=","
 

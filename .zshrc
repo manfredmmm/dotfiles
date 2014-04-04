@@ -54,3 +54,5 @@ export DISABLE_AUTO_TITLE="true"
 
 # Disable stopping flow with <C-s>
 stty -ixon
+
+[[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
