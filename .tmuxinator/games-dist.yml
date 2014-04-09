@@ -1,0 +1,6 @@
+project_name: games-dist
+project_root: ~/code/adverway/games-dist
+tabs:
+  - editor: vim
+  - node: node app.js
+  - git: git fetch && git gl

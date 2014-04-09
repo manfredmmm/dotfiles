@@ -56,3 +56,7 @@ export DISABLE_AUTO_TITLE="true"
 stty -ixon
 
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
+
+[[ -s /Users/manfred/.nvm/nvm.sh ]] && . /Users/manfred/.nvm/nvm.sh # This loads NVM
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
