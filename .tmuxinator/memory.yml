@@ -1,6 +1,6 @@
 project_name: memory
 project_root: ~/code/adverway/games/memory
-tabs:
+windows:
   - editor: vim
-  - grunt: grunt dev
+  - gulp: gulp dev
   - git: git fetch && git gl

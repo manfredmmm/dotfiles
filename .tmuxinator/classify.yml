@@ -1,6 +1,6 @@
 project_name: classify
 project_root: ~/code/adverway/games/classify
-tabs:
+windows:
   - editor: vim
-  - grunt: grunt dev
+  - gulp: gulp dev
   - git: git fetch && git gl

@@ -1,6 +1,6 @@
 project_name: gui-editor
 project_root: ~/code/adverway/gui-editor
-tabs:
+windows:
   - editor: vim
-  - grunt: grunt dev
-  - git: git sb && git gl
+  - gulp: gulp dev
+  - git: git fetch && git gl

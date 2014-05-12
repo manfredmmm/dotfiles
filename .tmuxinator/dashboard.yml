@@ -1,7 +1,7 @@
 project_name: dashboard
 project_root: ~/code/adverway/dashboard
-tabs:
+windows:
   - editor: vim
-  - git: git fetch && git gl
   - server: rails s
   - sidekiq: bundle exec sidekiq
+  - git: git fetch && git gl
