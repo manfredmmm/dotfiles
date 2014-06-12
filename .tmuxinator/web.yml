@@ -4,3 +4,4 @@ windows:
   - editor: vim
   - server: rails s -p 3003
   - git: git fetch && git gl
+  - gulp: gulp dev
