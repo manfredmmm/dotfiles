@@ -1,6 +1,0 @@
-project_name: slotmachine
-project_root: ~/code/adverway/games/slotmachine
-windows:
-  - editor: vim
-  - gulp: gulp dev
-  - git: git fetch && git gl

@@ -3,5 +3,6 @@ project_root: ~/code/adverway/dashboard
 windows:
   - editor: vim
   - server: rails s
-  - sidekiq: bundle exec sidekiq
+  - gulp: gulp
   - git: git fetch && git gl
+  - sidekiq: bundle exec sidekiq

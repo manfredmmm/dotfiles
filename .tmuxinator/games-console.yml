@@ -1,6 +1,0 @@
-project_name: games-console
-project_root: ~/code/adverway/games-console
-tabs:
-  - editor: vim
-  - grunt: grunt dev
-  - git: git fetch && git gl

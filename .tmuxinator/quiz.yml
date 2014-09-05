@@ -1,6 +1,0 @@
-project_name: quiz
-project_root: ~/code/adverway/games/quiz
-windows:
-  - editor: vim
-  - gulp: gulp dev
-  - git: git fetch && git gl

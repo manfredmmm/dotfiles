@@ -1,5 +1,5 @@
-project_name: classify
-project_root: ~/code/adverway/games/classify
+project_name: games
+project_root: ~/code/adverway/games
 windows:
   - editor: vim
   - gulp: gulp dev

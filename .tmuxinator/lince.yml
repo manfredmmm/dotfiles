@@ -1,6 +1,0 @@
-project_name: lince
-project_root: ~/code/adverway/games/lince
-windows:
-  - editor: vim
-  - gulp: gulp dev
-  - git: git fetch && git gl

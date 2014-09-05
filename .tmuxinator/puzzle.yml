@@ -1,6 +1,0 @@
-project_name: puzzle
-project_root: ~/code/adverway/games/puzzle
-windows:
-  - editor: vim
-  - gulp: gulp dev
-  - git: git fetch && git gl

@@ -1,6 +1,0 @@
-project_name: asteroids
-project_root: ~/code/adverway/games/asteroids
-windows:
-  - editor: vim
-  - gulp: gulp dev
-  - git: git fetch && git gl

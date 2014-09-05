@@ -1,6 +1,0 @@
-project_name: jewels
-project_root: ~/code/adverway/games/jewels
-windows:
-  - editor: vim
-  - gulp: gulp dev
-  - git: git fetch && git gl
