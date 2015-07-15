@@ -60,3 +60,4 @@ stty -ixon
 [[ -s /Users/manfred/.nvm/nvm.sh ]] && . /Users/manfred/.nvm/nvm.sh # This loads NVM
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+export NODE_PATH="$NODE_PATH:."
