@@ -1,6 +1,0 @@
-project_name: gui-editor
-project_root: ~/code/adverway/gui-editor
-windows:
-  - editor: vim
-  - gulp: gulp dev
-  - git: git fetch && git gl
