@@ -2,8 +2,8 @@ project_name: dashboard
 project_root: ~/code/adverway/dashboard
 windows:
   - editor: vim
-  - server: tail -f log/development.log
-  - gulp: gulp
+  - server: rails s
+  - gulp: gulp dev
   - git: git fetch && git gl
   - tasks:
       layout: main-vertical

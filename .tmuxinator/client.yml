@@ -2,6 +2,6 @@ project_name: client
 project_root: ~/code/adverway/client
 windows:
   - editor: vim
+  - server: tail -f log/development.log | bunyan
   - gulp: gulp dev
-  - log: tail -f log/development.log | bunyan
   - git: git fetch && git gl
