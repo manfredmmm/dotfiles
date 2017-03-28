@@ -61,3 +61,5 @@ stty -ixon
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export NODE_PATH="$NODE_PATH:."
+
+export PATH="$HOME/.yarn/bin:$PATH"
