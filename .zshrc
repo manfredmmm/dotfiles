@@ -40,8 +40,6 @@ unsetopt correct_all
 export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/vagrant/bin
 export EDITOR=vim
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
 # Launch tmux by default
 if [[ "$TERM" != "screen-256color" ]]
 then
@@ -57,9 +55,12 @@ stty -ixon
 
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
 
-[[ -s /Users/manfred/.nvm/nvm.sh ]] && . /Users/manfred/.nvm/nvm.sh # This loads NVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
-export NODE_PATH="$NODE_PATH:."
+export NODE_PATH="$NODE_PATH:." # This loads rbenv
 
 export PATH="$HOME/.yarn/bin:$PATH"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
